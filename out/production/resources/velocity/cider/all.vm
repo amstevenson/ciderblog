@@ -1,0 +1,16 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<h1 align="center">$msg.get("CIDERS_HEADING_ALL")</h1>
+<div class="row row-3">
+    #foreach($cider in $ciders)
+        <div class="col">
+            <a class="cider" href="$WebPath.getCIDERS()$cider.getName()">
+                <div class="ciderCover">
+                    <img src="$cider.getCover()" alt="$cider.getName()">
+                </div>
+                $msg.get("CIDERS_CAPTION", $cider.getName(), $cider.getRating())
+            </a>
+        </div>
+    #end
+</div>
+#end

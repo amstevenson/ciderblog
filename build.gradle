@@ -5,7 +5,7 @@ apply plugin: 'application'
 group = 'ciderblog'
 version = '1.0-SNAPSHOT'
 
-description = """"""
+description = ""
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8

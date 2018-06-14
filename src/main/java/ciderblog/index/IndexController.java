@@ -7,6 +7,9 @@ import static ciderblog.Application.*;
 
 public class IndexController {
     public static Route serveIndexPage = (Request request, Response response) -> {
-        return ViewUtil.render(request, new HashMap<>(), Path.Template.INDEX);
+        Map<String, Object> model = new HashMap<>();
+        model.put("users", userDao.getAllUserNames());
+        model.put("cider", ciderDao.getRandomCider());
+        return ViewUtil.render(request, model, Path.Template.INDEX);
     };
 }

@@ -8,6 +8,18 @@ public class RequestUtil {
         return request.queryParams("locale");
     }
 
+    public static String getParamName(Request request) {
+        return request.params("name");
+    }
+
+    public static String getQueryUsername(Request request) {
+        return request.queryParams("username");
+    }
+
+    public static String getQueryPassword(Request request) {
+        return request.queryParams("password");
+    }
+
     public static String getQueryLoginRedirect(Request request) {
         return request.queryParams("loginRedirect");
     }

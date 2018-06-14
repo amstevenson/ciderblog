@@ -1,0 +1,24 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+    #if($cider)
+    <h1 align="center">$cider.getName()</h1>
+    <br>
+    <p>Rating: $cider.getRating() / 10 </p>
+    <p>Price purchased at: $cider.getPrice() </p>
+    <p>Purchased at: $cider.getLocationPurchased() </p>
+    <p>Sneef: $cider.getSniffRating() </p>
+
+    <p>Review: $cider.getReview() </p>
+
+    <br>
+
+    <div class="cider">
+        <div class="ciderCover">
+            <img src="$cider.getCover()" alt="$cider.getName()">
+        </div>
+    </div>
+
+    #else
+    <h1>$msg.get("CIDERS_CIDER_NOT_FOUND")</h1>
+    #end
+#end

@@ -210,9 +210,9 @@ nav ul, nav li {
     width: 100%;
 }
 
-/* Book related stuff */
+/* Cider related stuff */
 
-a.book {
+a.cider {
     display: block;
     text-align: center;
     text-decoration: none;
@@ -221,25 +221,25 @@ a.book {
     border-radius: 5px;
 }
 
-a.book:hover {
+a.cider:hover {
     background: #e2e9f5;
 }
 
-a .bookCover {
+a .ciderCover {
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-a .bookCover img {
+a .ciderCover img {
     border-radius: 5px;
     min-height: 200px;
     max-height: 200px;
     width: auto;
 }
 
-.bookCover img {
+.ciderCover img {
     margin-top: 20px;
     border-radius: 10px;
     width: 100%;
