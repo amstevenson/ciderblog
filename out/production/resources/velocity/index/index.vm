@@ -1,0 +1,5 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+    <h1>Test heading</h1>
+    <h2>Test num users</h2>
+#end

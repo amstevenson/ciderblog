@@ -1,4 +1,4 @@
-package app.util;
+package ciderblog.util;
 
 import lombok.*;
 
@@ -12,6 +12,7 @@ public class Path {
 
     public static class Template {
         public final static String INDEX = "/velocity/index/index.vm";
+        public static final String NOT_FOUND = "/velocity/notFound.vm";
     }
 
 }

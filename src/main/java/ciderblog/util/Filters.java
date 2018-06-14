@@ -1,7 +1,7 @@
-package app.util;
+package ciderblog.util;
 
 import spark.*;
-import static app.util.RequestUtil.*;
+import static ciderblog.util.RequestUtil.*;
 
 public class Filters {
 

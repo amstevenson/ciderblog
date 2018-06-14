@@ -1,11 +1,11 @@
-package app.util;
+package ciderblog.util;
 
 import org.apache.velocity.app.*;
 import org.eclipse.jetty.http.*;
 import spark.*;
 import spark.template.velocity.*;
 import java.util.*;
-import static app.util.RequestUtil.*;
+import static ciderblog.util.RequestUtil.*;
 
 public class ViewUtil {
 

@@ -1,4 +1,4 @@
-package app.util;
+package ciderblog.util;
 
 import java.text.*;
 import java.util.*;
@@ -9,7 +9,6 @@ public class MessageBundle {
 
     public MessageBundle(String languageTag) {
         Locale locale = languageTag != null ? new Locale(languageTag) : Locale.ENGLISH;
-        this.messages = ResourceBundle.getBundle("localization/messages", locale);
     }
 
     public String get(String message) {

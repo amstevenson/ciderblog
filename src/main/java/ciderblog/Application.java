@@ -1,18 +1,13 @@
-package app;
+package ciderblog;
 
-import app.book.*;
-import app.index.*;
-import app.login.*;
-import app.user.*;
-import app.util.*;
+import ciderblog.index.IndexController;
+import ciderblog.util.Filters;
+import ciderblog.util.Path;
+
 import static spark.Spark.*;
 import static spark.debug.DebugScreen.*;
 
 public class Application {
-
-    // Declare dependencies
-    public static BookDao bookDao;
-    public static UserDao userDao;
 
     public static void main(String[] args) {
 

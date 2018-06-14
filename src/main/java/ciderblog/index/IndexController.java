@@ -1,12 +1,12 @@
-package app.index;
+package ciderblog.index;
 
-import app.util.*;
+import ciderblog.util.*;
 import spark.*;
 import java.util.*;
-import static app.Application.*;
+import static ciderblog.Application.*;
 
 public class IndexController {
     public static Route serveIndexPage = (Request request, Response response) -> {
-        return ViewUtil.render(request, "hello", Path.Template.INDEX);
+        return ViewUtil.render(request, new HashMap<>(), Path.Template.INDEX);
     };
 }
