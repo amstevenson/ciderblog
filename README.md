@@ -18,7 +18,6 @@ For this, all you need to do is go to the main directory in Git Bash and run './
 
 ## My TODO list
 
-1) Make it better. Put striped background in. Like all other websites have.
 2) TD put spacing into CSS
 3) Hook up DAO objects to actual postgres database. Will likely be PhpMyAdmin because...thats what I have on Digital Ocean
 4) Make front page look better

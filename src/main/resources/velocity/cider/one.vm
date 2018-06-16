@@ -2,7 +2,9 @@
 #@mainLayout()
     #if($cider)
     <h1 align="center">$cider.getName()</h1>
-    <br>
+
+    <div class="spacer-xxs"></div>
+
     <p>Rating: $cider.getRating() / 10 </p>
     <p>Price purchased at: $cider.getPrice() </p>
     <p>Purchased at: $cider.getLocationPurchased() </p>
@@ -10,7 +12,7 @@
 
     <p>Review: $cider.getReview() </p>
 
-    <br>
+    <div class="spacer-xxs" ></div>
 
     <div class="cider">
         <div class="ciderCover">

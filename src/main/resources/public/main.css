@@ -13,7 +13,7 @@ html, body {
 body {
     padding: 0 0 40px;
     color: #333;
-    background: #f9f9f9;
+    background:url("/img/base/bg.png");
 }
 
 h1, h2, h3, h4 {
@@ -285,4 +285,88 @@ a .ciderCover img {
 
 .bad.notification {
     background: #bb0000;
+}
+
+/****************************************************************************************************************************
+*                                                    SPACING                                                                *
+*****************************************************************************************************************************/
+.spacer {
+    clear: both;
+    position: relative;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.spacer-xlg {
+    height: 150px;
+}
+@media screen and (max-width: 768px) {
+    .spacer-xlg {
+        height: 70px;
+    }
+}
+
+.spacer-lg {
+    height: 100px;
+}
+@media screen and (max-width: 768px) {
+    .spacer-lg {
+        height: 50px;
+    }
+}
+
+.spacer-md {
+    height: 80px;
+}
+@media screen and (max-width: 768px) {
+    .spacer-md {
+        height: 30px;
+    }
+}
+
+.spacer-sm {
+    height: 50px;
+}
+@media screen and (max-width: 768px) {
+    .spacer-sm {
+        height: 20px;
+    }
+}
+
+.spacer-xs {
+    height: 30px;
+}
+@media screen and (max-width: 768px) {
+    .spacer-xs {
+        height: 20px;
+    }
+}
+
+.spacer-xxs {
+    height: 20px;
+}
+
+.letter-spacing {
+    letter-spacing: 1px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.uppercase-heading-sm {
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #7b7b7b;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.image-popup:hover {
+    opacity: .7;
 }

@@ -1,6 +1,6 @@
 #parse("/velocity/layout.vm")
 #@mainLayout()
-    <h1>$msg.get("INDEX_HEADING")</h1>
+    <h1 align="center">$msg.get("INDEX_HEADING")</h1>
     <h2>$msg.get("INDEX_REGISTERED_USERS", $users.size())</h2>
     <ul>
         #foreach($user in $users)
@@ -9,14 +9,13 @@
     </ul>
     <p>$msg.get("INDEX_PASSWORD_INFO")</p>
     #if($cider)
-    <h2>$msg.get("INDEX_CIDER_OF_THE_DAY_TEXT")</h2>
-    <div class="row row-2">
-            <div class="col">
-                <a href="$WebPath.getCIDERS()$cider.getName()">$msg.get("INDEX_CIDER_OF_THE_DAY_LINK", $cider.getName(), $cider.getRating())</a>
-            </div>
-            <div class="col">
-                <img src="$cider.getCover()" alt="$cider.getName()">
-            </div>
+        <h2 align="center">
+            $msg.get("INDEX_CIDER_OF_THE_DAY_TEXT")
+            <a href="$WebPath.getCIDERS()$cider.getName()">$msg.get("INDEX_CIDER_OF_THE_DAY_LINK", $cider.getName(), $cider.getRating())</a>
+        </h2>
+        <div class="spacer-xxs" ></div>
+        <div class="col" align="center">
+            <img src="$cider.getCover()" alt="$cider.getName()">
         </div>
     #end
 #end
