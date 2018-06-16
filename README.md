@@ -18,15 +18,16 @@ For this, all you need to do is go to the main directory in Git Bash and run './
 
 ## My TODO list
 
-2) TD put spacing into CSS
-3) Hook up DAO objects to actual postgres database. Will likely be PhpMyAdmin because...thats what I have on Digital Ocean
-4) Make front page look better
-5) Make it so images can be of any type. Currently only .jpg's will work. As I have literally appended that to the end of each.
-6) Change image size on 'one cider' page. As it is currently too big. Or look into other blogs and follow suit.
-7) incorporate multiple images on 'one cider' page.
-8) incorporate breaks in text for reviews, seperated by images. This and the one above may simply evolve to incorporating someone
+1) Hook up DAO objects to actual postgres database. Will likely be PhpMyAdmin because...thats what I have on Digital Ocean
+2) Make front page look better
+3) Make it so images can be of any type. Currently only .jpg's will work. As I have literally appended that to the end of each.
+4) Change image size on 'one cider' page. As it is currently too big. Or look into other blogs and follow suit.
+5) incorporate multiple images on 'one cider' page.
+6) incorporate breaks in text for reviews, seperated by images. This and the one above may simply evolve to incorporating someone
 elses work in a sense. Why reinvent the wheel...
-9) Unit/Integration tests? Nah. Maybe.
+7) Add messages/comments to the bottom.
+8) Add ability to add reviews.
+
 
 ## Credit to:
 
